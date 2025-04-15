@@ -61,3 +61,8 @@ SELECT item_name, category, stock_quantity
 FROM superstore
 WHERE stock_quantity >40 
 AND stock_quantity <80;
+
+--How many Air Purifiers are in stock? 
+SELECT item_name, stock_quantity
+FROM superstore
+Where item_name = "Air Purifier";
